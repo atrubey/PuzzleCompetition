@@ -29,7 +29,7 @@ public class Contestant {
 	 *  @param newRow the new row
 	 *  @param newCol the new column */
 	public void updateLocation(int newRow, int newCol){
-		/* code goes here */
+		loc = new Location(newRow, newCol);
 	}
 	
 	public Contestant(int r, int c){
