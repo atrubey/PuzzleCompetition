@@ -20,6 +20,7 @@ public class ContestOrganizer {
 		boolean swap = false; 
 		do {
 		for (int j = 0; j < CONTESTANTS_PER_ROW-1; j++) {
+			swap = false; 
 			if (arr[j].getScore() > arr[j+1].getScore()) {
 				temp = arr[j]; 
 				arr[j] = arr[j+1]; 
